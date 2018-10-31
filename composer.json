@@ -1,0 +1,10 @@
+{
+    "name": "root/multidb",
+    "authors": [
+        {
+            "name": "mirzayev",
+            "email": "mirzayevfarid@gmail.com"
+        }
+    ],
+    "require": {}
+}
