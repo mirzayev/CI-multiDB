@@ -73,6 +73,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = true;
 
+// DEFAULT DB ---------------------------------
+
 $db['default'] = array(
 	'dsn' => '',
 	'hostname' => 'localhost',
@@ -94,6 +96,8 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => true
 );
+
+// SECOND DB --------------------------------------
 
 $db['test'] = array(
 	'dsn' => '',

@@ -18,7 +18,12 @@ class Users extends CI_Controller
 
 	public function index()
 	{
+		// MULTIDB-2 USERS 
 		var_dump($this->user_model->getTest());
+		// MULTIDB-1 USERS 
+		var_dump($this->user_model->get());
+
+
 	}
 
 }
